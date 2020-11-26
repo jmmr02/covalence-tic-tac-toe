@@ -1,0 +1,32 @@
+.board {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row {
+    clear: both;
+    width: 302px;
+    margin: 0 auto;
+    background: blue;
+}
+
+/* target all the divs inside divs with class of row  */
+.row > div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.center {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
